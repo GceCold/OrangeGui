@@ -1,0 +1,10 @@
+name: OrangeGui
+version: @version@
+main: ltd.icecold.orange.OrangeGui
+api-version: 1.15
+authors: [ Icecold ]
+description: Gui Engine
+website: https://www.icecold.ltd/
+commands:
+  gui:
+    usage: /gui help
