@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "orangegui",
+  "version": "${version}",
+
+  "name": "OrangeGui",
+  "description": "This is a gui mod",
+  "authors": [
+    "IceCold"
+  ],
+  "contact": {
+    "homepage": "https://www.icecold.ltd/",
+    "sources": "https://github.com/GceCold"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ltd.icecold.orange.OrangeGui"
+    ]
+  },
+  "mixins": [
+    "orange.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.15.x",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
